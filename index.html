@@ -1,0 +1,459 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bondi</title>
+    <!--- Boostarp css link  --->
+
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <!-- Font Awesome icon css link-->
+    <link rel="stylesheet" href="css/fontawesome.min.css">
+
+    <!--   Animate css link -->
+    <link rel="stylesheet" href="css/jquery.animatedheadline.css">
+
+    <!-- uikit css link  -->
+    <link rel="stylesheet" href="css/uikit.min.css">
+
+    <!--  Google fonts link -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <!--   Our style css link -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light nav-bg" uk-sticky="top: 500; bottom: #animation">
+            <div class="container">
+                <a class="navbar-brand" href="#"> <img src="img/logo.png" alt="">  </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                          <a class="nav-link" href="#">Services</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Portfolio</a>
+                        </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                      </li>
+                  </ul>
+                  <div class="icon-button">
+                    <i class="fas fa-search"></i>
+                    <a href="#" class="btn"> Login</a>
+                  </div>
+                </div>
+            </div>
+          </nav>
+          <div class="header-text text-center">
+              <h2>Taste the Creativity</h2>
+              <p>We make awesome graphic and web design</p>
+              <div class="header-button">
+                  <a class="btn" href="#"> Get Started </a>
+              </div>
+          </div>
+    </header>
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="services-content text-center">
+                        <img src="img/component.png" alt="bondi">
+                        <h3>We are Good at </h3>
+                        <span>SOME OF THEASE STUFF UNDER</span>
+                        <hr>
+                       <!--
+<p>Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.</p>
+
+                       --> 
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card text-center services-lay">
+                        <div class="card-body">
+                            <img src="img/one.png" alt="">
+                            <div class="icon-for-ch">
+                                <img src="img/pencil.png" alt="">
+                            </div>
+                            <h3>GRAPHIC DESIGN</h3>
+                            <p>Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center services-lay">
+                        <div class="card-body">
+                            <img src="img/two.png" alt="">
+                            <div class="icon-for-ch">
+                                <img src="img/monitor.png" alt="">
+                            </div>
+                            <h3>WEB DESIGN</h3>
+                            <p>Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card text-center services-lay">
+                        <div class="card-body">
+                            <img src="img/three.png" alt="">
+                            <div class="icon-for-ch">
+                                <img src="img/plug.png" alt="">
+                            </div>
+                            <h3>APP DESIGN</h3>
+                            <p>Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="services-content text-center">
+                        <img src="img/component.png" alt="bondi">
+                        <h3>We are Good at </h3>
+                        <span>SOME OF THEASE STUFF UNDER</span>
+                        <hr>
+
+                        <div class="button">
+                            <button type="button" data-filter="all">All
+                                </button>
+                            <button type="button" data-filter=".web-design">
+                                Design</button> 
+                            <button type="button" data-filter=".web-dev">Code</button>
+                            <button type="button" data-filter=".wp">Photography</button>
+                            <button type="button" data-filter=".ux">Apps</button>
+                        </div>
+                        <div class="grid-protfolio-container" uk-lightbox="animation: slide">
+                            <div class="grid-protfolio-item mix web-design ui">
+                             
+                                    <img src="img/project-1.jpg" alt="" />
+                                    <div class="before-text">
+                                        <h2>Website Design</h2>
+                                    </div>
+                              
+                                
+                            </div>
+                            <div class="grid-protfolio-item mix web-dev web-design">
+                                <img src="img/project-3.jpg" alt="" /> 
+                               <div class="before-text">
+                                   <h2>Website Design</h2>
+                               </div>
+                           </div>
+                           <div class="grid-protfolio-item mix web-dev web-design">
+                            <img src="img/project-5.jpg" alt="" /> 
+                           <div class="before-text">
+                               <h2>Website Design</h2>
+                           </div>
+                            </div>
+                            <div class="grid-protfolio-item mix web-dev web-design">
+                                <img src="img/project-4.jpg" alt="" /> 
+                               <div class="before-text">
+                                   <h2>Website Design</h2>
+                               </div>
+                           </div>
+                            <div class="grid-protfolio-item mix web-dev ux">
+                                 <img src="img/project-5.jpg" alt="" /> 
+                                <div class="before-text">
+                                    <h2>Website Design</h2>
+                                </div>
+                            </div>
+                            <div class="grid-protfolio-item mix web-dev web-design">
+                                 <img src="img/project-3.jpg" alt="" /> 
+                                <div class="before-text">
+                                    <h2>Website Design</h2>
+                                </div>
+                            </div>
+                            <div class="grid-protfolio-item mix web-design ui">
+                             
+                                <img src="img/project-1.jpg" alt="" />
+                                <div class="before-text">
+                                    <h2>Website Design</h2>
+                                </div>
+                        </div>
+                        <div class="grid-protfolio-item mix web-dev ux">
+                            <img src="img/project-5.jpg" alt="" /> 
+                           <div class="before-text">
+                               <h2>Website Design</h2>
+                           </div>
+                       </div>
+                        </div>
+                </div>
+            </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="header-button services-and text-center">
+                        <a class="btn" href="#"> Get Started </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center about-content">
+                    <img src="img/component.png" alt="bondi">
+                        <h3>We are Good at </h3>
+                        <span>SOME OF THEASE STUFF UNDER</span>
+                        <hr>
+                        <p>Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh <br> pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec <br> sollicitudin molestie malesuada.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 align-self-center">
+                    <div class="left-content">
+                        <h3>Retina Design</h3>
+                        <p>Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. <br><br>
+
+                            Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin eget tortor risus. Donec sollicitudin molestie malesuada.</p>
+
+                            <a href="#" class="btn"> Order Me one</a>
+                    </div>
+                    
+                </div>
+                <div class="col-md-6">
+                    <img src="img/notebook.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="team">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center team-title">
+                    <h2>Meet the Team</h2>
+                    <p>Donec rutrum congue leo eget malesuada. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Pellentesque in ipsum id orci porta dapibus. Proin br   eget tortor risus. Donec sollicitudin molestie malesuada.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card team-persone text-center">
+                       <img src="img/team.jpg" alt="">
+                       <h4 class="">Luke Skywalker</h4>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat optio </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card team-persone text-center">
+                       <img src="img/team.jpg" alt="">
+                       <h4 class="">Luke Skywalker</h4>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat optio </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card team-persone text-center">
+                       <img src="img/team.jpg" alt="">
+                       <h4 class="">Luke Skywalker</h4>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat optio </p>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card team-persone text-center">
+                       <img src="img/team.jpg" alt="">
+                       <h4 class="">Luke Skywalker</h4>
+                       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat optio </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="cliend-slider">
+        <div class="container">
+            <div class="row">
+            <div class="col-md-2">
+                <img src="img/cli-1.png" alt="">
+            </div>
+            <div class="col-md-2">
+                <img src="img/cli-2.png" alt="">
+            </div>
+            <div class="col-md-2">
+                <img src="img/cli-3.png" alt="">
+            </div>
+            <div class="col-md-2">
+                <img src="img/cli-4.png" alt="">
+            </div>
+            <div class="col-md-2">
+                <img src="img/cli-2.png" alt="">
+            </div>
+            <div class="col-md-2">
+                <img src="img/cli-1.png" alt="">
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <section id="start-project">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h3>Start Your Project Now</h3>
+                    <p>Leave your description and we start the engine.Don't worry,you can cancel anytime</p>
+                    <a class="btn" href="#"> Start Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <img src="img/component.png" alt="bondi">
+                    <h3>Read Our Blog </h3>
+                    <span>NEW STORIES</span>
+                    <hr>
+                </div>
+            </div>
+            <div class="row" style="margin-top:60px;">
+                <div class="col-md-4">
+                    <div class="card blog-style">
+                        <img src="img/blog-1.jpg" alt="blog">
+                        <span>January 17,2017</span>
+                        <h4>Some Awesome Blog Title Here</h4>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card blog-style">
+                        <img src="img/blog-2.jpg" alt="blog">
+                        <span>January 17,2017</span>
+                        <h4>Some Awesome Blog Title Here</h4>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card blog-style">
+                        <img src="img/blog-3.jpg" alt="blog">
+                        <span>January 17,2017</span>
+                        <h4>Some Awesome Blog Title Here</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="blog-button text-center">
+                <a href="#" class="btn">MORE STORIES</a>
+            </div>
+        </div>
+    </section>
+    <section id="newletter">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 align-self-center">
+                    <h3>Subscribe to our Newsletter:</h3>
+                </div>
+                <div class="col-md-4 align-self-center">
+                    <form action="#">
+                        <input class="form-control" placeholder="Enter Email Adders" type="text">
+                    </form>
+                </div>
+                <div class="col-md-4 ">
+                    <div class="subscribe-button">
+                        <a class="btn" href="#">Subscribe</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="left-content">
+                        <img src="img/logo.png" alt="bondi">
+                        <p class="mt-3" style="margin-bottom:79px;">Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.</p>
+                        <p>Created by Graphberry,Belgrade,Serbia</p>
+                        <p>&copy;2020. <span>bondi.inc</span> </p>
+                    </div>
+                </div>
+                <div class="col-md-2">
+                    <h4 style="color:#e6eef2;font-size:15px;">Links</h4>
+                    <ul class="links-item">
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Our Services</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Testimonial</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Trams&condition</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-2">
+                    <h4 style="color:#e6eef2;font-size:15px;">About Us</h4>
+                    <ul class="links-item">
+                        <li><a href="#">Sign In</a></li>
+                        <li><a href="#">Register</a></li>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        
+                    </ul>
+                </div>
+                <div class="col-md-4 rt-contact">
+                    <h4 style="color:#e6eef2;font-size:15px;">Contact Us</h4>
+                    <p>Get in touch with us via mail phone.We are waiting for 
+                        your call or message</p>
+                        <form action="#">
+                            <input class="form-control text-center" placeholder="ruhitbaidya01@gmail.com" type="text">
+                        </form>
+                        <ul class="social">
+                            <li><a href="#"><i class="fab fa-facebook-f"></i> </a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i> </a></li>
+                            <li><a href="#"><i class="fab fa-google-plus-g"></i> </a></li>
+                            <li><a href="#"><i class="fab fa-dribbble"></i> </a></li>
+                        </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+<!-- all js link -->
+<!-- jquary link -->
+<script src="js/jquery-slim.min.js"></script>
+
+<!-- Boostarp js link -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/popper.min.js"></script>
+
+<!--  animate js link -->
+<script src="js/jquery.animatedheadline.min.js"></script>
+
+<!-- mixit up animate js link -->
+<script src="js/mixitup.min.js"></script>
+
+<!-- ui kit js link -->
+<script src="js/uikit-icons.min.js"></script>
+<script src="js/uikit.min.js"></script>
+
+<!-- our js link -->
+<script src="js/main.js"></script>
+</body>
+</html>
